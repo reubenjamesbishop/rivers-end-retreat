@@ -1,0 +1,49 @@
+.where__container {
+    padding: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 0rem;
+    background: #fff;
+    /* border: solid blue 3px; */
+}
+
+h1 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.image__container {
+    /* border: 3px solid blue; */
+    padding: 5px;
+    /* max-width: 640px; */
+    display: flex;
+    margin-right: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.text__container {
+    /* border: 3px solid blue; */
+    padding: 5px;
+    /* max-width: 640px; */
+
+    display: inline-block;
+    width: 70%;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .content__container {
+        align-content: center;
+    }
+
+    .image__container {
+        width: 100%;
+        height: auto;
+    }
+
+    .text__container {
+        width: 100%;
+    }
+}
