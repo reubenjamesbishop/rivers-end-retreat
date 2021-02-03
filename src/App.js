@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Bookings from './components/pages/Bookings';
 import SignUp from './components/pages/SignUp';
 import Gallery from './components/pages/Gallery';
+//Test
 
 
 function App() {
