@@ -21,13 +21,16 @@
     flex-flow: column;
     align-items: center;
     /* max-width: 1120px; */
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    /* border: 1px solid red; */
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    width: 85%;
+    margin: 40px 0 40px;
+    /* border: 1px solid green; */
   }
   
   .cards__items {
@@ -92,7 +95,7 @@
     color: #4a4b50;
     font-size: 18px;
     line-height: 24px;
-    font-weight: lighter;
+    font-weight: 600;
   }
   
   @media only screen and (min-width: 1200px) {

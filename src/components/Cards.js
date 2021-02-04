@@ -6,8 +6,9 @@ import image_brideandgroom from '../images/brideandgroom.jpg';
 import image_chessboard from '../images/chessboard.jpg';
 import image_bridge from '../images/bridge.jpg';
 import image_pool from '../images/pool.jpg';
-import image_4 from '../images/img-4.jpg';
 import image_cocktail from '../images/cocktail.jpg';
+import image_firepit from '../images/firepit.jpg';
+import image_fairylight from '../images/fairylight.jpg';
 
 function Cards() {
     return (
@@ -19,39 +20,28 @@ function Cards() {
                         <CardItem
                             src={image_brideandgroom}
                             text="Residential Weddings"
-                            // label="dsa"
-                            path="/weddings"
-                        />
-                        <CardItem
-                            src={image_pool}
-                            text="House and Ammenities"
-                            label="Ammenities"
-                            path="/ammenities"
-                        />
-                        <CardItem
-                            src={image_chessboard}
-                            text="Reunions and Events"
-                            label="Luxury"
                             path="/services"
                         />
                         <CardItem
-                            src={image_chessboard}
-                            text="Reunions and Events"
-                            label="Luxury"
+                            src={image_fairylight}
+                            text="Functions & Events"
                             path="/services"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
-                            src={image_bridge}
-                            text="Cruises and Adventures"
-                            label="Adventure"
+                            src={image_pool}
+                            text="Ammenities"
+                            path="/weddings"
+                        />
+                        <CardItem
+                            src={image_chessboard}
+                            text="Functions Events"
                             path="/services"
                         />
                         <CardItem
-                            src={image_cocktail}
-                            text="Catering and Functions"
-                            label="Luxury"
+                            src={image_firepit}
+                            text="Surrounding Goolwa"
                             path="/services"
                         />
                     </ul>
