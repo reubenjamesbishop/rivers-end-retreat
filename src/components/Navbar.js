@@ -31,7 +31,9 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        Rivers End Retreat
+                        <a class="navbar-brand">
+                            <img class="rer-logo" src="https://riversendretreat.com.au/wp-content/uploads/2019/03/rer-logo-tgb-jb-300x156.jpg" alt="" />
+                        </a>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

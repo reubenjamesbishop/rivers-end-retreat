@@ -9,18 +9,13 @@
   
   .footer-subscription {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
   
     margin-bottom: 20px;
     color: #fff;
-  }
-  
-  .footer-subscription > p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
   }
   
   .footer-subscription-heading {
@@ -57,12 +52,15 @@
   
   .footer-link-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    margin: 16px;
-    text-align: left;
-    width: 160px;
+    text-align: center;
     box-sizing: border-box;
+    border: 1px solid red;
+  }
+
+  .social-link {
+    color: white;
   }
 
   
@@ -134,11 +132,11 @@
     }
   
     .footer-link-wrapper {
-      flex-direction: column;
+      flex-direction: row;
     }
   
     .social-media-wrap {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
   

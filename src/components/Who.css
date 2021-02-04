@@ -1,14 +1,9 @@
 .who__container {
     padding: 4rem;
-    padding-bottom: 4rem;
-    padding-top: 0rem;
+    padding-top: 0px;
+    /* padding-bottom: 4rem; */
     background: #fff;
     /* border: solid blue 3px; */
-}
-
-h1 {
-    text-align: left;
-    padding-bottom: 20px;
 }
 
 .image__container {
@@ -23,14 +18,24 @@ h1 {
     width: 30%;
 }
 
+
+.who__header {
+    text-align: left;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid lightgray;
+
+}
+
 .text__container {
-    /* border: 3px solid blue; */
     padding: 5px;
     max-width: 640px;
-
     display: inline-block;
     width: 70%;
     
+}
+
+.description__container {
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 1024px) {

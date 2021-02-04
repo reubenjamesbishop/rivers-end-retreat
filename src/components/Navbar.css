@@ -1,5 +1,6 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+    background: #fff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,6 +9,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: 1px solid lightgray;
   }
   
   .navbar-container {
@@ -21,13 +23,21 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
-  }
+    }
+
+.rer-logo {
+  height: 79px;
+}
+
+.navbar-brand {
+  height: 80px;
+}
   
   .fa-typo3 {
     /* margin-left: 0.5rem; */
@@ -50,7 +60,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -59,12 +69,12 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #000;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: #000;
   }
   
   .nav-links-mobile {

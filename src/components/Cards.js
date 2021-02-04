@@ -7,12 +7,12 @@ import image_chessboard from '../images/chessboard.jpg';
 import image_bridge from '../images/bridge.jpg';
 import image_pool from '../images/pool.jpg';
 import image_4 from '../images/img-4.jpg';
-import image_5 from '../images/img-5.jpg';
+import image_cocktail from '../images/cocktail.jpg';
 
 function Cards() {
     return (
         <div className="cards">
-            <h1 className="cards__title">Ammenities and Activities</h1>
+            <h1 className="cards__title">Explore</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -36,7 +36,7 @@ function Cards() {
                         />
                         <CardItem
                             src={image_chessboard}
-                            text="Beep Beep Bitches"
+                            text="Reunions and Events"
                             label="Luxury"
                             path="/services"
                         />
@@ -49,14 +49,8 @@ function Cards() {
                             path="/services"
                         />
                         <CardItem
-                            src={image_4}
+                            src={image_cocktail}
                             text="Catering and Functions"
-                            label="Luxury"
-                            path="/services"
-                        />
-                        <CardItem
-                            src={image_5}
-                            text="Other activities"
                             label="Luxury"
                             path="/services"
                         />

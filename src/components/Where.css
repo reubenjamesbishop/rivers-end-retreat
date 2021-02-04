@@ -26,11 +26,31 @@ h1 {
 .text__container {
     /* border: 3px solid blue; */
     padding: 5px;
-    /* max-width: 640px; */
+    max-width: 640px;
+    padding-right: 20px !important;
 
     display: inline-block;
     width: 70%;
     
+}
+
+.where__header {
+    text-align: left;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.text__container {
+    padding: 5px;
+    max-width: 640px;
+    display: inline-block;
+    width: 70%;
+    
+}
+
+.description__container {
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 1024px) {

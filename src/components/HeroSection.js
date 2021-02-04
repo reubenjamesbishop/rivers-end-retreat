@@ -2,24 +2,24 @@ import React from 'react'
 import { Button } from './Button'
 import './HeroSection.css'
 import '../App.css'
-import video from '../videos/rer_video.mp4';
+// import video from '../videos/rer_video.mp4';
 import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src={video} autoPlay loop muted />
+            {/* <video src={video} autoPlay loop muted /> */}
             <h1>RIVERS END RETREAT</h1>
-            <p>Luxury stays, an hour away</p>
+            <p><i>Luxury stays, an hour away...</i></p>
             <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                {/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     LEARN MORE
-                </Button>
-                <Link to="/bookings">
+                </Button> */}
+                {/* <Link to="/bookings">
                     <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
                         BOOK NOW
                 </Button>
-                </Link>
+                </Link> */}
             </div>
         </div>
     )

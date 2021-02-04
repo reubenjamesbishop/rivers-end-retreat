@@ -8,7 +8,7 @@ function Why() {
             <div class="content__container">
                 <img class="image__container" src={image_cocktail} />
                 <div class="text__container">
-                    <h1 className="why__header">Why?</h1>
+                    <h1 className="why__header">Why do we do it?</h1>
                     <div className="description__container">
                         <p>
                             In 1853, when prominent politician William Younghusband claimed the sweeping final bend of the Murray, he wasn’t thinking about history – he simply chose the very best spot from which he could enjoy the majestic Murray river.
