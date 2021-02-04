@@ -10,7 +10,7 @@ function HeroSection() {
         <div className="hero-container">
             {/* <video src={video} autoPlay loop muted /> */}
             <h1>RIVERS END RETREAT</h1>
-            <p><i>Luxury stays, an hour away...</i></p>
+            <p class="tagline"><i>Luxury stays, an hour away...</i></p>
             <div className="hero-btns">
                 {/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     LEARN MORE

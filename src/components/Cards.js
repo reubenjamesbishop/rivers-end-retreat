@@ -36,7 +36,7 @@ function Cards() {
                         />
                         <CardItem
                             src={image_chessboard}
-                            text="Functions Events"
+                            text="Functions & Events"
                             path="/services"
                         />
                         <CardItem

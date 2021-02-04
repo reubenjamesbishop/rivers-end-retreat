@@ -51,6 +51,11 @@ video {
         margin-top: -150px;
         text-align: center;
     }
+
+    .hero-container > .tagline {
+        font-size: 26px;
+        /* color: red; */
+    }
 }
 
 @media screen and (max-width: 768px) {
