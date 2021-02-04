@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            <div className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Get in touch today! We would love to have you down.
                 </p>
-            </section>
-            <div class='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div class="social-link">hello</div>
+                <div className="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
                 </div>
+
             </div>
         </div>
     );

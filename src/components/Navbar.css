@@ -32,11 +32,13 @@
     }
 
 .rer-logo {
-  height: 79px;
+  margin-top: 9px;
+  height: 70px;
 }
 
 .navbar-brand {
   height: 80px;
+  margin-left: -430px !important;
 }
   
   .fa-typo3 {
@@ -46,13 +48,13 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
     justify-content: end;
-    /* margin-right: 2rem; */
+    margin-right: -25rem;
   }
   
   .nav-item {

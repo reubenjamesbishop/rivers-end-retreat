@@ -7,7 +7,7 @@ function Where() {
         <div className="where__container">
             <div class="content__container">
                 <div class="text__container">
-                    <h1 className="where__header">Where?</h1>
+                    <h1 className="where__header">Where are we?</h1>
                     <p className="description__container">
                         <p>
                             River’s End Retreat is located in the historic town of Goolwa, South Australia –

@@ -19,7 +19,7 @@ function Cards() {
                         <CardItem
                             src={image_brideandgroom}
                             text="Residential Weddings"
-                            label="Wedding"
+                            // label="dsa"
                             path="/weddings"
                         />
                         <CardItem

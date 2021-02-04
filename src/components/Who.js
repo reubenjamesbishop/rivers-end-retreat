@@ -5,7 +5,7 @@ import image_archieandleroy from '../images/archieandleroy.jpg'
 
 function Who() {
     return (
-        <div className="who__container">
+        <div id="section1" className="who__container">
             <div class="content__container">
                 <img class="image__container" src={image_archieandleroy} />
                 <div class="text__container">

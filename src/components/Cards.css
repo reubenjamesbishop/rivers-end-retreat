@@ -65,20 +65,6 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
-    content: attr(data-category);
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
-    box-sizing: border-box;
-  }
-  
   .cards__item__img {
     position: absolute;
     top: 0;
@@ -103,9 +89,10 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #4a4b50;
     font-size: 18px;
     line-height: 24px;
+    font-weight: lighter;
   }
   
   @media only screen and (min-width: 1200px) {

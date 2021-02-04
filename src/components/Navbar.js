@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css'
 import rer_logo from "../images/rer_logo.jpg";
+import Scroll from 'react-scroll';
+const ScrollLink = Scroll.ScrollLink;
 
 function Navbar() {
 
@@ -40,6 +42,11 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
                                 Gallery
                             </Link>
@@ -50,9 +57,19 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/workshops' className='nav-links' onClick={closeMobileMenu}>
+                            {/* <Link to='/home/section1' className='nav-links' onClick={closeMobileMenu}>
                                 About Us
-                            </Link>
+                            </Link> */}
+                            <ScrollLink
+                                to="example-destination"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className='some-class'
+                                activeClass='some-active-class'
+                            >
+                                Link Text Goes Here
+                            </ScrollLink>
                         </li>
                         <li className="nav-item">
                             <Link to='/bookings' className='nav-links' onClick={closeMobileMenu}>
