@@ -20,29 +20,29 @@ function Cards() {
                         <CardItem
                             src={image_brideandgroom}
                             text="Residential Weddings"
-                            path="/services"
+                            path="/weddings"
                         />
                         <CardItem
                             src={image_fairylight}
-                            text="Functions & Events"
-                            path="/services"
+                            text="Functions"
+                            path="/functions"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
                             src={image_pool}
                             text="Ammenities"
-                            path="/weddings"
+                            path="/ammenities"
                         />
                         <CardItem
                             src={image_chessboard}
-                            text="Functions & Events"
-                            path="/services"
+                            text="Retreats"
+                            path="/retreats"
                         />
                         <CardItem
                             src={image_firepit}
                             text="Surrounding Goolwa"
-                            path="/services"
+                            path="/goolwa"
                         />
                     </ul>
                 </div>

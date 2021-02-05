@@ -29,7 +29,10 @@ export default function Gallery() {
                     <h1>Gallery</h1>
                 </div>
                 <p class="gallery__description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    A small selection of our favourite photos.
+                    The property is easily fitted out to host any kind of event, from wedddings to corporate functions to family reunions you name it!
+                    See a range of past events, features and our furry friends in our gallery.
+                    Please get in contact to book a tour or have a look around!
                 </p>
             </div>
             <div class="row">
