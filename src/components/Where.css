@@ -5,8 +5,7 @@
     background: #fff;
     /* border: solid blue 3px; */
 }
-
-h1 {
+.where__container > h1 {
     text-align: left;
     padding-bottom: 20px;
 }

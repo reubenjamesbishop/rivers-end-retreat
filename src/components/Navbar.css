@@ -163,8 +163,8 @@
 }
 
 .fa-angle-down {
-  /* color: blue !important; */
-  padding-left: 10px;
+  color: gray !important;
+  margin-left: 10px;
 }
   
   /* For phone displays */
