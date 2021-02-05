@@ -1,13 +1,13 @@
 import React from 'react';
 import './Who.css';
 import image_backyard from '../images/backyard.jpg'
-import image_archieandleroy from '../images/archieandleroy.jpg'
+import image_jamietrudy from '../images/jamietrudy.jpg'
 
 function Who() {
     return (
         <div id="section1" className="who__container">
             <div class="content__container">
-                <img class="image__container" src={image_archieandleroy} />
+                <img class="image__container" src={image_jamietrudy} />
                 <div class="text__container">
                     <h1 className="who__header">Who are we?</h1>
                     <p className="description__container">

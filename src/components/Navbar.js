@@ -52,9 +52,19 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/weddings' className='nav-links' onClick={closeMobileMenu}>
+                            {/* <Link to='/weddings' className='nav-links' onClick={closeMobileMenu}>
                                 Weddings & Events
-                            </Link>
+                            </Link> */}
+                            <div class="dropdown nav-links">
+                                <button class="dropbtn">Events
+                                <i class="fa fa-angle-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/weddings">Weddings</a>
+                                    <a href="functions">Functions</a>
+                                    <a href="/retreats">Retreats</a>
+                                </div>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <Link to='/AboutUs' className='nav-links' onClick={closeMobileMenu}>
