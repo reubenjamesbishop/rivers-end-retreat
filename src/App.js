@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Bookings from './components/pages/Bookings';
 import Gallery from './components/pages/Gallery';
 import Weddings from './components/pages/Weddings';
+import AboutUs from './components/pages/AboutUs';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" component={Gallery} />
           <Route path="/bookings" component={Bookings} />
           <Route path="/weddings" component={Weddings} />
+          <Route path="/AboutUs" component={AboutUs} />
         </Switch>
       </Router>
     </>

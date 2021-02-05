@@ -1,0 +1,25 @@
+.media__wrapper {
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.video__container {
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.promo__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+  }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    /* width:   0%; */
+    /* background-color: #777; */
+}

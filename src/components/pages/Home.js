@@ -4,18 +4,14 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Footer from '../Footer'
-import Who from '../Who';
-import Where from '../Where';
-import Why from '../Why';
+import PromoVideo from '../PromoVideo';
 
 function Home() {
     return (
         <>
             <HeroSection />
+            <PromoVideo />
             <Cards />
-            <Who />
-            <Where />
-            <Why />
             <Footer />
         </>
     );
