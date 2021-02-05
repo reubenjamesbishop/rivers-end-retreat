@@ -31,6 +31,32 @@
   margin-bottom: 20px;
 }
 
+.AboutUs__intro{
+  /* text-align: center; */
+  /* border: 1px solid green; */
+  
+} 
+
+.AboutUs__heading > h1 {
+  font-size: 50px;
+  margin: auto;
+  width: 60%;
+  font-weight: lighter;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.AboutUs__description {
+  /* border: 1px solid blue; */
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 .carousel-pic {
   height: 70vh !important;
   /* border: 1px solid red; */

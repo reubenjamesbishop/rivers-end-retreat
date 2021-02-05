@@ -224,10 +224,13 @@
     }
   
     .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
+      position: fixed;
+      /* top: 0;
+      left: 0;*/
+      /* transform: translate(100%, 0%); */
+      align-items: center;
+      margin-right: -120vw;
+      /* margin-left: auto; */
     }
   
     .menu-icon {

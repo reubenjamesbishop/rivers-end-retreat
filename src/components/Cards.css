@@ -2,7 +2,8 @@
     padding: 4rem;
     background: #fff;
     padding-bottom: 5px;
-    /* border-bottom: 1px solid black; */
+    /* border: 1px solid black; */
+    padding-top: 1rem;
   }
   
   .cards__title {
@@ -10,6 +11,7 @@
     font-size: 50px;
     font-weight: 400;
     border-bottom: 1px solid black;
+    padding-bottom: 15px;
   }
   
   .cards__title {
