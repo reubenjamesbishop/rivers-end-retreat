@@ -1,19 +1,22 @@
 .weddings__wrapper {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  
 }
 
 .weddings__description {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   float: left;
-  width: 30%;
-  margin: auto;
-  margin-bottom: 20px;
-  text-align: center;
+  width: 38%;
+  text-align: left;
+  margin-left: 7%;
+  /* margin-top: 3%; */
 }
 
-.slider__wrapper {
-  border: 1px solid blue;
+.wedding_pic >img {
+  /* border: 1px solid blue; */
   float: right;
+  margin-right: 7%;
+  width: 43%;
 }
 
 .weddings__heading > h1 {
@@ -25,11 +28,6 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border-bottom: 1px solid lightgray;
-}
-
-.slider__wrapper {
-    width: 50%;
-    margin: auto;
 }

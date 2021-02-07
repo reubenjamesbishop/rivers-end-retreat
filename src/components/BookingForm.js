@@ -36,6 +36,7 @@ const BookingForm = () => {
                     Thinking of organising an event? We would love to hear from you!
                     <br />
                     Send us a message to get the ball rolling, and we'll get back to you as soon as we can.
+                    <br />
                 </p>
                 <label>Name</label>
                 <input placeholder="Name" name="name" value={name} onChange={(e) => setName(e.target.value)} />

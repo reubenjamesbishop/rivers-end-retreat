@@ -8,6 +8,7 @@ import 'react-awesome-slider/dist/styles.css';
 import image_1 from '../../images/brideandgroom.jpg';
 import image_2 from '../../images/bridge.jpg';
 import image_3 from '../../images/fairylight.jpg';
+import image_4 from '../../images/coupleonjetty.jpg';
 
 function Weddings() {
     return (
@@ -21,15 +22,15 @@ function Weddings() {
                         Rivers end retreat offers a comprehensive range of residential wedding packages to suit all kinds of styles and budgets.
                         No matter what you have in mind, our versatile property can be kitted out to suit any theme.
                         Large or small, the weddings we've hosted have had an intimate and rural feel whilst remaining in the heart of historic Goolwa.
-                </p>
+                        <br /><br />
+                        These days, some couples are choosing to extend their special celebration by having a residential weekend event.
+                        They go away and relax with a smaller number of good friends and family, and then host a special afternoon/evening on the Saturday.   River’s End Retreat nestled in Goolwa, South Australia offers the ideal opportunity to do just that.
+
+                    </p>
                 </div>
 
-                <div class="slider__wrapper">
-                    <AwesomeSlider animation="cubeAnimation">
-                        <div data-src={image_1} />
-                        <div data-src={image_2} />
-                        <div data-src={image_3} />
-                    </AwesomeSlider>
+                <div class="wedding_pic">
+                    <img src={image_4} />
                 </div>
             </div>
 
